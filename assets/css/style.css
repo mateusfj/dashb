@@ -1,0 +1,81 @@
+*{padding: 0; margin: 0; box-sizing: border-box;font-family: "Roboto", sans-serif;}
+body{}
+
+.flex{display: flex;width: 100%;justify-content: space-between;}
+
+#main{height: 100vh;width: 100%;justify-content: center;align-items: center;background-image: url(../img/fundo2.jpg);object-fit: cover;background-repeat: round;}
+.login{width: 26rem;height: auto;background-color: white;padding: 35px;border-radius: 20px;}
+.login .title{text-align: center;}
+.login .title img{}
+.login .title h2{margin: 20px 0;font-weight: 500;}
+.login .btn-options{}
+.login .btn-options button{border: none;background: #f2f2f2;padding: 10px 15px;border-radius: 8px;display: flex;align-items: center;font-weight: 500;}
+.login .btn-options button img{width: 14px;margin-right: 10px;}
+.login .btn-options button i{margin-right: 10px;}
+
+.login form{margin: 20px 0 0 0;}
+.login form .input-style{margin-bottom: 20px;border: 2px solid #f2f2f2;border-radius: 8px;overflow: hidden;}
+.login form .input-style input{width: 100%;padding: 15px;border: none;}
+.login form .input-style input:focus{outline: none;}
+
+.login form input[type=email]{
+border-bottom: 2px solid #f2f2f2;}
+.login form input[type=email]:focus{}
+.login form input[type=password]{}
+#btn-entrar{width: 100%;border: none;background: #222222;color: white;padding: 10px;border-radius: 10px;margin: 20px 0;}
+.login form input[type=password ]:focus{}
+
+.login form input[type=checkbox]{margin-right: 6px;}
+.login form label{font-size: 13px;font-weight: 500;}
+.login a{color: #222222;font-size: 14px;font-weight: 500;}
+
+.check{display: flex;align-items: center;color: gray;}
+.login p{font-size: 14px;text-align: center;}
+
+
+.text p{position: relative;color: gray;margin-top: 20px;font-size: 14px;font-weight: 500;}
+.text p::after{content: "";width: 33%;background-color: #f2f2f2;height: 2px;position:absolute;bottom: 40%;left: 0;transition: 0.5s ease-in-out;}
+.text p::before{content: "";width: 33%;background-color: #f2f2f2;height: 2px;position:absolute;bottom: 40%;right: 0;transition: 0.5s ease-in-out;}
+
+
+.display-flex{display: flex;}
+/*PAGINA HOME*/
+#home{width: 100%;height: 100vh;display: flex;}
+
+/*MENU LATERAL*/
+.menu-lateral{height: 100vh;width: 300px;border-right: 2px solid #f2f2f2;padding: 0 20px;position: relative;}
+.menu-lateral .logo-icon{justify-content: space-between;align-items: center;padding: 40px 0 0;}
+.menu-lateral .logo-icon img{}
+.menu-lateral .logo-icon i{font-size: 23px;}
+.menu-lateral .nav-bar{
+}
+.menu-lateral .nav-bar p{font-weight: 400;color: gray;font-size: 14px;margin: 40px 0 10px;}
+.menu-lateral .nav-bar ul{}
+.menu-lateral .nav-bar ul li{list-style: none;font-weight: 500;}
+.menu-lateral .nav-bar ul li a{text-decoration: none;display: inline-block;color: #222222;width: 100%;padding: 10px;}
+.menu-lateral .nav-bar ul li a:hover{background-color: #f2f2f2;border-radius: 8px;}
+.menu-lateral .nav-bar ul li a i{margin-right: 5px;}
+
+.menu-lateral .perfil {display: flex;align-items: center;justify-content: space-between;position: absolute;bottom: 1%;}
+.menu-lateral .perfil .img-adm{display: flex;align-items: center;}
+.menu-lateral .perfil .img-adm img{width: 65px;}
+.menu-lateral .perfil .img-adm h3{}
+.menu-lateral .perfil .img-adm h6{color: gray;}
+.menu-lateral .perfil .escuro-mode{margin-left: 58px;}
+.menu-lateral .perfil .escuro-mode i{}
+
+
+/*FIM MENU LATERAL*/
+
+
+/*CABEÇALHO*/
+.cabecalho{}
+/*FIM CABEÇALHO*/
+
+
+/*CONTEUDO*/
+.conteudo{}
+/*FIM CONTEUDO*/
+
+
+/*FIM PAGINA HOME*/
