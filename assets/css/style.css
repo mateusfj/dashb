@@ -9,7 +9,7 @@ body{}
 .login .title img{}
 .login .title h2{margin: 20px 0;font-weight: 500;}
 .login .btn-options{}
-.login .btn-options button{border: none;background: #f2f2f2;padding: 10px 15px;border-radius: 8px;display: flex;align-items: center;font-weight: 500;}
+.login .btn-options button{border: none;background: #f2f2f2;padding: 10px 15px;border-radius: 8px;display: flex;align-items: center;font-weight: 500;cursor: pointer;}
 .login .btn-options button img{width: 14px;margin-right: 10px;}
 .login .btn-options button i{margin-right: 10px;}
 
@@ -40,13 +40,13 @@ border-bottom: 2px solid #f2f2f2;}
 
 .display-flex{display: flex;}
 /*PAGINA HOME*/
-#home{width: 100%;height: 100vh;display: flex;}
+#home{width: 100%;height: 100vh;display: inline-flex;position: relative;}
 
 /*MENU LATERAL*/
-.menu-lateral{height: 100vh;width: 25%;border-right: 2px solid #f2f2f2;padding: 0 20px;display: flex;flex-direction: column;justify-content: space-between;}
+.menu-lateral{height: 100vh;width: 300px;border-right: 2px solid #f2f2f2;padding: 0 20px;display: flex;flex-direction: column;justify-content: space-between;position: fixed;}
 .menu-lateral .logo-icon{justify-content: space-between;align-items: center;padding: 40px 0 0;}
 .menu-lateral .logo-icon img{}
-.menu-lateral .logo-icon i{font-size: 23px;}
+.menu-lateral .logo-icon i{font-size: 23px;cursor: pointer;}
 .menu-lateral .nav-bar{
 }
 .p-style{font-weight: 500;color: gray;font-size: 13px;margin: 40px 0 10px;}
@@ -56,32 +56,86 @@ border-bottom: 2px solid #f2f2f2;}
 .menu-lateral .nav-bar ul li a:hover{background-color: #f2f2f2;border-radius: 8px;}
 .menu-lateral .nav-bar ul li a i{margin-right: 5px;}
 
-.perfil {display: flex;align-items: center;width: 100%;}
+.perfil {display: flex;align-items: center;justify-content: space-between;width: 100%;}
 .perfil .img-adm{display: flex;align-items: center;}
-.perfil .img-adm img{width: 40px;margin: 5px 5px 5px 10px;}
-.perfil .img-adm .img-doc{width: 40px;margin: 5px 5px 5px 10px;}
+.perfil .img-adm img{width: 40px;margin: 5px 10px 5px 10px;}
+.perfil .img-adm .img-doc{width: 40px;margin: 5px 10px 5px 10px;}
 .perfil .img-adm h3{font-size: 14px;margin-bottom: 2px;}
-.perfil .img-adm h6{color: gray;}
+.perfil .img-adm h6{color: gray;font-weight: 400;}
 .perfil .escuro-mode{margin-left: 40px;}
-.perfil .escuro-mode i{}
+.perfil .escuro-mode i{color: black;}
 
 
 /*FIM MENU LATERAL*/
 
 
 /*CENTRO*/
-.centro{height: 100%;width: 100%;}
-.centro .cabecalho{align-items: center;padding: 30px;display: flex;justify-content: space-between;}
+.centro{height: 100%;width: 100%;margin-left: 300px;}
+.centro .cabecalho{align-items: center;padding: 30px 20px;display: flex;justify-content: space-between;}
 .centro .cabecalho .links{}
 .centro .cabecalho .links a{text-decoration: none;color: gray;font-size: 14px;font-weight: 500;}
 .centro .cabecalho .links a:active{color: black;}
 .centro .cabecalho .procurar{}
+.centro .grafico{padding: 0 40px;}
+.centro .grafico h1{}
+.centro .grafico .filtro{display: flex;align-items: center;justify-content: space-between;}
+.centro .grafico .filtro h2{}
+.centro .grafico .filtro button{border: 2px solid #f4f4f4;background: white;padding: 4px 10px;border-radius: 6px;font-weight: 500;cursor: pointer;}
+.centro .grafico .filtro button i{margin-right: 5px;}
+
+.gradient {background-image: linear-gradient(to left, #FFB709, #F265BE, #B469F3);background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;color: black;}
+
+
+.centro .box-grafico{justify-content: space-between;border: 2px solid #f4f4f4;border-radius: 10px;margin: 20px 0;}
+.centro .box-grafico .box{padding: 20px;width: 33%;height: 10rem;border-right: 2px solid #f4f4f4;display: flex;flex-direction: column;justify-content: space-between;}
+.centro .box-grafico .box h3{font-size: 23px;}
+.centro .box-grafico .box h2{font-size: 16px;font-weight: 500;}
+.centro .box-grafico .box p{color: gray;font-size: 14px;}
+.centro .box-grafico .box .flex-span{display: flex;align-items: center;}
+.centro .box-grafico .box .flex-span .spanlf{margin-left: 10px;font-size: 13px;color: green;font-weight: 700;}
+.centro .box-grafico .box .flex-span .spanc{margin-left: 10px;font-size: 13px;color: #FF9337;font-weight: 700;}
+.centro .box-grafico .box .flex-span span i{color: #baffba;font-size: 13px;}
+.centro .box-grafico .box .flex-span span .icon{color: #FF9337;font-size: 13px;}
+
+.centro .box-grafico .box img{}
+.text-grafico{display: flex;flex-direction: column;justify-content: space-around;}
+.conteudo-grafico{display: flex;justify-content: space-between;}
+
+
+
+.centro .campanhas{padding: 20px;}
+.centro .campanhas .title-campanha{
+    padding: 0px 15px;
+}
+.centro .campanhas .title-campanha a{
+    color: black;
+}
+.centro .campanhas .title-campanha h2{font-size: 1.2rem;margin-bottom: 20px;}
+.centro .campanhas .box-campanha{display: flex;}
+.centro .campanhas .box-campanha .boxes{border: 2px solid #f4f4f4;border-radius: 10px;padding: 15px;margin: 13px;cursor: pointer;width: 93%;}
+.centro .campanhas .box-campanha .boxes .i-img{display: flex;justify-content: space-between;align-items: center;margin-bottom: 20px;}
+.centro .campanhas .box-campanha .boxes .i-img i{font-size: 24px;color: #1877F2;}
+.centro .campanhas .box-campanha .boxes .i-img .perfil-icon{}
+.centro .campanhas .box-campanha .boxes .i-img .plataforma-icon{width: 24px;}
+.centro .campanhas .box-campanha .boxes h3{font-size: 1rem;}
+.centro .campanhas .box-campanha .boxes .progresso{display: flex;justify-content: space-between;position: relative;padding: 20px 0 40px;}
+
+.centro .campanhas .box-campanha .boxes span{color: #737373;}
+.centro .campanhas .box-campanha .boxes p{font-size: 14px;}
+.centro .campanhas .box-campanha .boxes .progresso .texto-claro{font-size: 14px;color: #acacac;}
+.centro .campanhas .box-campanha .boxes .progresso .texto-escuro{font-size: 14px;color: #222222;}
+.linha{position: absolute;width: 100%;border-radius: 10px;height: 4px;background-color: #f4f4f4;bottom: 22px;}
+.add-campaing{display: flex;margin: 10px;}
+.add-campaing i{margin-right: 5px;color: black;cursor: pointer;}
+.add-campaing p{font-size: 14px;font-weight: 500;color: #686464;cursor: pointer;}
+.situacao{}
+.situacao p{font-size: 14px;margin: 0 15px;color: #737373;font-weight: 500;}.situacao p span{margin-left: 10px;color: black;padding: 2px 6px;border-radius: 4px;background: #f4f4f4;font-weight: 500}
 
 /*FIM CENTRO*/
 
 
 /*DIREITA*/
-.direita{height: 100vh;width: 25%;border-left: 2px solid #f2f2f2;padding: 0 20px;position: relative;}
+.direita{height: 100vh;width: 450px;border-left: 2px solid #f2f2f2;padding: 0 20px;position: relative;}
 /*FIM DIREITA*/
 
 

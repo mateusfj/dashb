@@ -19,7 +19,7 @@
             <div class="between">
                 <div class="logo-icon display-flex">
                     <a href=""><img src="assets/img/logo-login.png" alt="logo"></a>
-                    <a href="#"><i class="bi bi-layout-sidebar-reverse"></i></a>
+                    <i class="bi bi-layout-sidebar-reverse"></i>
                 </div>
 
                 <div class="nav-bar">
@@ -79,14 +79,160 @@
             <div class="grafico">
                 <h1>Your total revenue</h1>
                 <div class="filtro">
-                    <h2>$90,239.00</h2>
-                    <button><i class="bi bi-calendar4"></i> Select Dates</button>
-                    <button><i class="bi bi-funnel-fill"></i> Filters</button>
+                    <h1 class="gradient">$90,239.00</h1>
+                    <div class="display">
+                        <button><i class="bi bi-calendar4"></i> Select Dates</button>
+                        <button><i class="bi bi-funnel-fill"></i> Filters</button>
+                    </div>
+                </div>
+                <div class="display-flex box-grafico">
+                    <div class="box">
+                        <h2 class="text-box"> New subscritions</h2>
+                        <div class="conteudo-grafico">
+                            <div class="text-grafico">
+                                <div class="flex-span">
+                                    <h3>22 </h3>
+                                    <span class="spanlf"><i class="bi bi-arrow-up-circle-fill"></i> 15%</span>
+                                </div>
+                                <p>Comapared to last week</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/grafico01.png" alt="grafico de novas inscriçoes">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2 class="text-box"> New Orders</h2>
+                        <div class="conteudo-grafico">
+                            <div class="text-grafico">
+                                <div class="flex-span">
+                                    <h3>320</h3>
+                                    <span class="spanc"><i class="bi bi-arrow-up-circle-fill icon"></i> 4%</span>
+                                </div>
+                                <p>Comapared to last week</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/grafico02.png" alt="grafico de novas inscriçoes">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2 class="text-box"> Avg. order revenue</h2>
+                        <div class="conteudo-grafico">
+                            <div class="text-grafico">
+                                <div class="flex-span">
+                                    <h3>$1,080 </h3>
+                                    <span class="spanlf"><i class="bi bi-arrow-up-circle-fill"></i> 8%</span>
+                                </div>
+                                <p>Comapared to last week</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/grafico01.png" alt="grafico de novas inscriçoes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="campanhas">
+                <div class="title-campanha flex">
+                    <h2>Recents Campaigns</h2>
+                    <a href="#">View All</a>
+                </div>
+                <div class="box-campanha">
+                    <div>
+                        <div class="situacao">
+                            <p>Draft<span>2</span></p>
+                        </div>
+                        <div class="boxes">
+                            <div class="i-img">
+                                <i class="bi bi-facebook"></i>
+                                <img src="assets/img/perfils.png" alt="">
+                            </div>
+                            <h3>10 Simple steps to revollutionise workflows with our product</h3>
+                            <div class="progresso">
+                                <p class="texto-claro"><span>Start:</span> Not Started</p>
+                                <p class="texto-escuro"><span>Ends:</span> Aug 1, 2023</p>
+                                <div class="linha"></div>
+                            </div>
+                            <p class="texto-escuro"> <span> Last updated:</span> Apr 10, 2023</p>
+                        </div>
+                        <div class="boxes">
+                            <div class="i-img">
+                                <img class="plataforma-icon" src="assets/img/instagram.png" alt="icone do instagram">
+                                <img src="assets/img/perfils.png" alt="">
+                            </div>
+                            <h3>Beyond Boundaries: Explore our new product</h3>
+                            <div class="progresso">
+                                <p class="texto-claro"><span>Start:</span> Not Started</p>
+                                <p class="texto-escuro"><span>Ends:</span> Aug 1, 2023</p>
+                                <div class="linha"></div>
+                            </div>
+                            <p class="texto-escuro"> <span> Last updated:</span> Apr 10, 2023</p>
+                        </div>
+                        <div class="add-campaing">
+                            <i class="bi bi-plus-lg"></i>
+                            <p>Add campaing</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="situacao">
+                            <p>In Progress<span>2</span></p>
+                        </div>
+                        <div class="boxes">
+                            <div class="i-img">
+                                <img class="plataforma-icon" src="assets/img/google.png" alt="icone do google">
+                                <img class="perfil-icon" src="assets/img/perfils.png" alt="">
+                            </div>
+                            <h3>Boost your performance: start using our amazing product</h3>
+                            <div class="progresso">
+                                <p class="texto-escuro"><span>Start:</span> Jun 1, 2023</p>
+                                <p class="texto-escuro"><span>Ends:</span> Aug 1, 2023</p>
+                                <div class="linha"></div>
+                            </div>
+                            <p class="texto-escuro"> <span> Last updated:</span> July 10, 2023</p>
+                        </div>
+                        <div class="boxes">
+                            <div class="i-img">
+                                <i class="bi bi-facebook"></i>
+                                <img src="assets/img/perfils.png" alt="">
+                            </div>
+                            <h3>Skyrocket your productivity: our product is revealed</h3>
+                            <div class="progresso">
+                                <p class="texto-claro"><span>Start:Jun 1, 2023</span></p>
+                                <p class="texto-escuro"><span>Ends:</span> Sep 30, 2023</p>
+                                <div class="linha"></div>
+                            </div>
+                            <p class="texto-escuro"> <span> Last updated:</span> June 23, 2023</p>
+                        </div>
+                        <div class="add-campaing">
+                            <i class="bi bi-plus-lg"></i>
+                            <p>Add campaing</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="situacao">
+                            <p>Archived<span>1</span></p>
+                        </div>
+                        <div class="boxes">
+                            <div class="i-img">
+                                <img class="plataforma-icon" src="assets/img/google.png" alt="icone do google">
+                                <img src="assets/img/perfils.png" alt="">
+                            </div>
+                            <h3>10 Simple steps to revollutionise workflows with our product</h3>
+                            <div class="progresso">
+                                <p class="texto-escuro"><span>Ended:</span> Jun 11, 2023</p>
+                                <div class="linha"></div>
+                            </div>
+                            <p class="texto-escuro"> <span> Last updated:</span> Apr 10, 2023</p>
+                        </div>
+                        <div class="add-campaing">
+                            <i class="bi bi-plus-lg"></i>
+                            <p>Add campaing</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-
         <div class="direita">
             <p class="p-style">Recent Documents</p>
             <div class="perfil">
