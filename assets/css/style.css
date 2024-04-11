@@ -49,7 +49,7 @@ border-bottom: 2px solid #f2f2f2;}
 .menu-lateral .logo-icon i{font-size: 23px;cursor: pointer;}
 .menu-lateral .nav-bar{
 }
-.p-style{font-weight: 500;color: gray;font-size: 13px;margin: 40px 0 10px;}
+.p-style{font-weight: 400;color: gray;font-size: 13px;margin: 40px 0 10px;}
 .menu-lateral .nav-bar ul{}
 .menu-lateral .nav-bar ul li{list-style: none;font-weight: 500;}
 .menu-lateral .nav-bar ul li a{text-decoration: none;display: inline-block;color: #222222;width: 100%;padding: 10px;}
@@ -73,7 +73,7 @@ border-bottom: 2px solid #f2f2f2;}
 .centro{height: 100%;width: 100%;margin-left: 300px;}
 .centro .cabecalho{align-items: center;padding: 30px 20px;display: flex;justify-content: space-between;}
 .centro .cabecalho .links{}
-.centro .cabecalho .links a{text-decoration: none;color: gray;font-size: 14px;font-weight: 500;}
+.centro .cabecalho .links a{text-decoration: none;font-size: 14px;font-weight: 500;color: #BDBDBD;}
 .centro .cabecalho .links a:active{color: black;}
 .centro .cabecalho .procurar{}
 .centro .grafico{padding: 0 40px;}
@@ -117,7 +117,7 @@ border-bottom: 2px solid #f2f2f2;}
 .centro .campanhas .box-campanha .boxes .i-img i{font-size: 24px;color: #1877F2;}
 .centro .campanhas .box-campanha .boxes .i-img .perfil-icon{}
 .centro .campanhas .box-campanha .boxes .i-img .plataforma-icon{width: 24px;}
-.centro .campanhas .box-campanha .boxes h3{font-size: 1rem;}
+.centro .campanhas .box-campanha .boxes h3{font-size: 1rem;font-weight: 500;}
 .centro .campanhas .box-campanha .boxes .progresso{display: flex;justify-content: space-between;position: relative;padding: 20px 0 40px;}
 
 .centro .campanhas .box-campanha .boxes span{color: #737373;}
